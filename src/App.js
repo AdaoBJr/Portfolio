@@ -155,6 +155,13 @@ function App() {
                         <a href="https://github.com/AdaoBJr/Calculator/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
+                    <img src={work6} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/FacebookSignup/" className="portfolioLink_name">Project Facebook Signup</a>
+                        <a href="https://github.com/AdaoBJr/FacebookSignup/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
             </div>
         </section>
 
