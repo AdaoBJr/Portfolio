@@ -169,6 +169,13 @@ function App() {
                         <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="1600" className="portfolioImg">
+                    <img src={work8} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/ToDoList/" className="portfolioLink_name">Project To Do List</a>
+                        <a href="https://github.com/AdaoBJr/ToDoList/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
             </div>
         </section>
 
