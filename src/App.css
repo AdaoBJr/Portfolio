@@ -617,3 +617,10 @@ img {
       justify-items: center;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .layoutGrid{
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
