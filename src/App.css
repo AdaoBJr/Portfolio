@@ -1,0 +1,8 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+/*===== Variables CSS =====*/
+:root {
+    --header-height: 3rem;
+    --font-medium: 500;
+}
