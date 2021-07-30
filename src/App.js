@@ -134,6 +134,13 @@ function App() {
                         <a href="https://github.com/AdaoBJr/PandaStore/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="600" className="portfolioImg">
+                    <img src={work3} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/CadastroColaboradores/#/" className="portfolioLink_name">Employees Register</a>
+                        <a href="https://github.com/AdaoBJr/CadastroColaboradores/blob/main/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
             </div>
         </section>
 
