@@ -597,4 +597,23 @@ img {
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
   }
+
+  .portfolioContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+  .contactContainer {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+  }
+  .contact__form {
+      width: 380px;
+  }
+
+  .footerContainer {
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+  }
 }
