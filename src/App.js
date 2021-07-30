@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { BiUpArrowAlt } from 'react-icons/bi';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 import perfil from './images/perfil.png';
 import skills from './images/skill.jpg';
@@ -184,7 +184,20 @@ function App() {
                 </div>
             </div>
         </section>
-
+        {/* <!--===== CONTACT =====--> */}
+        <section className="contact" id="contact">
+            <h2 data-aos="fade-down" className="sectionTitle">Contact</h2>
+            <div className="contactContainer">
+                <div>
+                    <h3 data-aos="fade-down" data-aos-delay="300" className="contactSubtitle">EMAIL</h3>
+                    <span data-aos="fade-down" data-aos-delay="300" className="contactText">adao_junior_@hotmail.com</span>
+                    <h3 data-aos="fade-down" data-aos-delay="400" className="contactSubtitle">PHONE</h3>
+                    <span data-aos="fade-down" data-aos-delay="400" className="contactText">+55 67 99225-2201 <FaWhatsapp /></span>
+                    <h3 data-aos="fade-down" data-aos-delay="500" className="contactSubtitle">ADRESS</h3>
+                    <span data-aos="fade-down" data-aos-delay="500" className="contactText">Campo Grande - MS / Brazil</span>
+                </div>
+            </div>
+        </section>
     </main>
     </div>
   );
