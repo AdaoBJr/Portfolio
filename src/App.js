@@ -6,8 +6,15 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 import perfil from './images/perfil.png';
 import skills from './images/skill.jpg';
-
-
+import work1 from './images/work1.png';
+import work2 from './images/work2.png';
+import work3 from './images/work3.png';
+import work4 from './images/work4.png';
+import work5 from './images/work5.png';
+import work6 from './images/work6.png';
+import work7 from './images/work7.png';
+import work8 from './images/work8.png';
+import work100 from './images/work100.png';
 import './App.css';
 import Dashboard from './Components/Dashboard';
 
@@ -113,7 +120,13 @@ function App() {
         <section className="portfolio section" id="portfolio">
             <h2 data-aos="fade-down" className="sectionTitle">Portfolio</h2>
             <div className="portfolioContainer layoutGrid">
-
+                <div data-aos="fade-down" data-aos-delay="50" className="portfolioImg">
+                    <img src={work1} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/RecipesApp/" className="portfolioLink_name">Project Recipes App</a>
+                        <a href="https://github.com/AdaoBJr/RecipesApp/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
             </div>
         </section>
 
