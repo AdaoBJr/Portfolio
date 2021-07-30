@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import { BiUpArrowAlt } from 'react-icons/bi';
 // import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import './App.css';
+import Dashboard from './Components/Dashboard';
+
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -46,7 +48,7 @@ function App() {
                 <div data-aos="fade-down" data-aos-delay="300" className="homeScroll">
                     <a href="#about" className="homeScroll_link"><BiUpArrowAlt />Scroll down</a>
                 </div >
-                {/* <Dashboard /> */}
+                <Dashboard />
             </div>
         </section>
 
