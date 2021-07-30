@@ -272,3 +272,45 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
+
+/*===== HOME =====*/
+.home {
+  position: relative;
+  background-color: var(--first-color);
+  overflow: hidden;
+}
+
+.homeContainer {
+  height: calc(100vh - var(--header-height));
+  row-gap: 5rem;
+}
+
+.homeTitle {
+  align-self: flex-end;
+  font-size: var(--big-font-size);
+  color: var(--white-color);
+  line-height: .8;
+}
+
+.homeTitle span {
+  text-shadow: 0 20px 25px rgba(0,0,0,.5);
+}
+
+.homeScroll {
+  align-self: flex-end;
+  padding-bottom: var(--mb-4);
+}
+
+.homeScroll_link {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  color: var(--white-color);
+}
+
+.homeDashboard {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
