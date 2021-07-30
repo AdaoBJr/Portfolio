@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import { BiUpArrowAlt } from 'react-icons/bi';
+// import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -40,7 +42,7 @@ function App() {
             <div className="homeContainer layoutGrid">
                 <h1 data-aos="fade-down" className="homeTitle"><span>HE</span><br />LLO.</h1>
                 <div data-aos="fade-down" data-aos-delay="300" className="homeScroll">
-                    {/* <a href="#about" className="homeScroll_link"><BiUpArrowAlt />Scroll down</a> */}
+                    <a href="#about" className="homeScroll_link"><BiUpArrowAlt />Scroll down</a>
                 </div >
                 {/* <Dashboard /> */}
             </div>
