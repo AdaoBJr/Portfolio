@@ -5,6 +5,8 @@ import { BiUpArrowAlt } from 'react-icons/bi';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 import perfil from './images/perfil.png';
+import skills from './images/skill.jpg';
+
 
 import './App.css';
 import Dashboard from './Components/Dashboard';
@@ -78,6 +80,32 @@ function App() {
                         <a href="https://www.linkedin.com/in/adao-bjunior/"><FaLinkedinIn className="aboutSocial_icon" /></a>
                         <a href="https://www.github.com/AdaoBJr"><FaGithub className="aboutSocial_icon" /></a>
                     </div>
+                </div>
+            </div>
+        </section>
+        {/* <!--===== SKILLS =====--> */}
+        <section className="skills section">
+            <h2 data-aos="fade-down" className="sectionTitle">Skills</h2>
+            <div className="skillsContainer layoutGrid">
+                <div>
+                    <h3 data-aos="fade-down" data-aos-delay="50" className="skillsSubtitle">Development</h3>
+                    <span data-aos="fade-down" data-aos-delay="150" className="skillsName">HTML5</span>
+                    <span data-aos="fade-down" data-aos-delay="250" className="skillsName">CSS3</span>
+                    <span data-aos="fade-down" data-aos-delay="350" className="skillsName">Javascript</span>
+                    <span data-aos="fade-down" data-aos-delay="450" className="skillsName">Git</span>
+                    <span data-aos="fade-down" data-aos-delay="550" className="skillsName">GitHub</span>
+                    <span data-aos="fade-down" data-aos-delay="650" className="skillsName">React.js</span>
+                    <span data-aos="fade-down" data-aos-delay="750" className="skillsName">Redux</span>
+                    <span data-aos="fade-down" data-aos-delay="850" className="skillsName">ContextAPI</span>
+                    <span data-aos="fade-down" data-aos-delay="950" className="skillsName">Hooks</span>
+                    <span data-aos="fade-down" data-aos-delay="1050" className="skillsName">Jest</span>
+                    <span data-aos="fade-down" data-aos-delay="1150" className="skillsName">RTL</span>
+                    <h3 data-aos="fade-down" data-aos-delay="1250" className="skillsSubtitle">Design</h3>
+                    <span data-aos="fade-down" data-aos-delay="1350" className="skillsName">Figma</span>
+                    <span data-aos="fade-down" data-aos-delay="1450" className="skillsName">Photoshop</span>
+                </div>
+                <div data-aos="fade-down" data-aos-delay="400" className="skillsImg">
+                    <img src={skills} alt="img skill" />
                 </div>
             </div>
         </section>
