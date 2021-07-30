@@ -460,3 +460,23 @@ img {
   color: var(--dark-color);
   text-align: center;
 }
+
+/* ===== CONTACT =====*/
+.contact {
+  padding: 3rem 0;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contactSubtitle {
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+}
+
+.contactText {
+  display: inline-block;
+  margin-bottom: var(--mb-2);
+}
