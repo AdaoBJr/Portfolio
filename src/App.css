@@ -616,11 +616,14 @@ img {
 
   .footerContainer {
       grid-template-columns: repeat(3, 1fr);
-      justify-items: center;
+  }
+
+  .footerTitle {
+    text-align: left;
   }
 
   .footerContainer div p {
-    text-align: center;
+    text-align: left;
   }
 }
 
