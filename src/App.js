@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import { BiUpArrowAlt } from 'react-icons/bi';
 // import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa';
+import './App.css';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   // ---------------------------------------------------------------------------------------------
     // CICLOS DE VIDA
-    // useEffect(() => { Aos.init({ duration: 2000 }); }, []);
+    useEffect(() => { Aos.init({ duration: 2000 }); }, []);
 
     // ---------------------------------------------------------------------------------------------
   
