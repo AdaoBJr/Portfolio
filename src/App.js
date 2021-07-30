@@ -34,6 +34,19 @@ function App() {
             </button>
         </nav>
     </header>
+    <main>
+      {/* <!--===== HOME =====--> */}
+      <section className="home" id="home">
+            <div className="homeContainer layoutGrid">
+                <h1 data-aos="fade-down" className="homeTitle"><span>HE</span><br />LLO.</h1>
+                <div data-aos="fade-down" data-aos-delay="300" className="homeScroll">
+                    {/* <a href="#about" className="homeScroll_link"><BiUpArrowAlt />Scroll down</a> */}
+                </div >
+                {/* <Dashboard /> */}
+            </div>
+        </section>
+
+    </main>
     </div>
   );
 }
