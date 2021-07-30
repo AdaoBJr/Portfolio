@@ -17,9 +17,6 @@ export default function Dashboard() {
     <div className="homeDashboard">
       <Lottie
           options={ dashboarAnimation }
-          // height={ 350 }
-          // width={ 350 }
-          // style={ { marginTop: '8rem' } }
         />
     </div>
   )
