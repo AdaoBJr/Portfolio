@@ -92,3 +92,28 @@ img {
   height: auto;
   display: block;
 }
+
+/*===== CLASS CSS ===== */
+.section {
+  padding: 3rem 0;
+}
+
+.sectionTitle {
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: var(--dark-color);
+  margin: var(--mb-4) 0;
+  text-align: center;
+}
+
+.sectionTitle::after{
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: .18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-color);
+}
