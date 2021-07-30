@@ -45,3 +45,50 @@
 :root {
   --z-fixed: 100;
 }
+
+/*===== BASE =====*/
+*,::before,::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+h1,h2,p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  background: inherit;
+  border-radius: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
