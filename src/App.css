@@ -314,3 +314,59 @@ img {
   width: 400px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
 }
+
+/* ===== ABOUT =====*/
+.aboutContainer {
+  justify-items: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.aboutImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 120px;
+  height: 120px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.aboutImg img {
+  width: 100px;
+}
+
+.aboutSubtitle {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+
+.aboutText {
+  margin-bottom: var(--mb-4);
+} 
+
+.aboutProfession {
+  display: block;
+  margin-bottom: var(--mb-4);
+}
+
+.aboutSocial_icon {
+  font-size: 1.4rem;
+  margin: 0 var(--mb-1);
+  transition: 0.5s;
+}
+
+.aboutSocial_icon:hover {
+  transform: scale(1.50);
+  color: var(--first-color);
+}
+
+.curriculumLink {
+  color:var(--first-color);
+}
+
+.curriculumLink:hover {
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
