@@ -199,6 +199,31 @@ function App() {
             </div>
         </section>
     </main>
+    {/* <!--===== FOOTER =====--> */}
+    <footer className="footer section">
+        <div className="footerContainer layoutGrid">
+            <div>
+                <h2 className="footerTitle">ADÃO BENITES</h2>
+                <p>I'm Adão Benites and this is my personal website</p>
+            </div>
+            <div>
+                <h2 className="footerTitle">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" className="footerLink">Home</a></li>
+                    <li><a href="#about" className="footerLink">About</a></li>
+                    <li><a href="#skills" className="footerLink">Skills</a></li>
+                    <li><a href="#portfolio" className="footerLink">Portfolio</a></li>
+                    <li><a href="#Contact" className="footerLink">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h2 className="footerTitle">FOLLOW</h2>
+                <a href="https://www.linkedin.com/in/adao-bjunior/"><FaLinkedinIn className="aboutSocial_icon" /></a>
+                <a href="https://www.github.com/AdaoBJr"><FaGithub className="aboutSocial_icon" /></a>
+            </div>
+        </div>
+    </footer>
     </div>
   );
 }
