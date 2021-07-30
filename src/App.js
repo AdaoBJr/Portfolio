@@ -176,6 +176,12 @@ function App() {
                         <a href="https://github.com/AdaoBJr/ToDoList/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="1800" className="portfolioImg">
+                    <img src={work100} alt="" />
+                    <div className="portfolioLink">
+                    <a href className="portfolioLink_name">Coming Soon New Project</a>
+                    </div>
+                </div>
             </div>
         </section>
 
