@@ -162,6 +162,13 @@ function App() {
                         <a href="https://github.com/AdaoBJr/FacebookSignup/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="1400" className="portfolioImg">
+                    <img src={work7} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/TrybeWallet/" className="portfolioLink_name">Project TrybeWallet</a>
+                        <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
             </div>
         </section>
 
