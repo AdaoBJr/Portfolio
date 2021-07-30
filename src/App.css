@@ -566,5 +566,35 @@ img {
       background-color: var(--white-color);
   }
 
-  
+  .homeContainer {
+    height: 100vh;
+    grid-template-rows: 1.7fr 1fr;
+    row-gap: 0;
+    height: 580px;
+}
+
+  .homeDashboard {
+      width: 550px;
+  }
+
+  .aboutContainer {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      text-align: initial;
+      padding: 4rem 0;
+  }
+
+  .aboutImg {
+      width: 200px;
+      height: 200px;
+  }
+
+  .aboutImg img {
+      width: 165px;
+  }
+
+  .skillsContainer {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+  }
 }
