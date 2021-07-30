@@ -531,4 +531,40 @@ img {
       width: 64px;
       top: 3rem;
   }
+
+  .nav {
+    height: calc(var(--header-height) + 1rem);
+}
+
+  .navList {
+      display: flex;
+  }
+
+  .navItem {
+      margin-left: var(--mb-3);
+      margin-bottom: 0;
+  }
+
+  .icon {
+  opacity: 0;
+  }
+
+  .navLink {
+      color: var(--white-color);
+      transition: 0.5s;
+      padding: 5px 7px;
+      border-radius: .50rem;
+  }
+
+  .navLink:hover {
+      color: var(--first-color);
+      background-color: var(--white-color);
+      box-shadow: 0 2px 10px rgba(35,0,77,.2);
+  }
+
+  .active::after {
+      background-color: var(--white-color);
+  }
+
+  
 }
