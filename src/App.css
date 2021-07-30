@@ -480,3 +480,35 @@ img {
   display: inline-block;
   margin-bottom: var(--mb-2);
 }
+
+/* ===== FOOTER=====*/
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footerContainer {
+  row-gap: 2rem;
+}
+
+.footerTitle {
+  font-size: var(--normal-font-size);
+  color: var(--white-color);
+  margin-bottom: var(--mb-2);
+}
+
+.footerLink {
+  padding: .25rem 0;
+}
+
+.footerLink:hover {
+  color: var(--first-color);
+}
+
+.footerSocial {
+  font-size: 1.4rem;
+  margin-right: var(--mb-1);
+}
+
+.footerSocial:hover {
+  color: var(--first-color);
+}
