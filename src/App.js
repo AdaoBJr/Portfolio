@@ -109,6 +109,13 @@ function App() {
                 </div>
             </div>
         </section>
+        {/* <!--===== PORTFOLIO =====--> */}
+        <section className="portfolio section" id="portfolio">
+            <h2 data-aos="fade-down" className="sectionTitle">Portfolio</h2>
+            <div className="portfolioContainer layoutGrid">
+
+            </div>
+        </section>
 
     </main>
     </div>
