@@ -515,5 +515,20 @@ img {
 
 /* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px){
+    body {
+      margin: 0;
+  }
 
+  .section {
+      padding-top: 4rem;
+  }
+
+  .sectionTitle {
+      margin-bottom: 3rem;
+  }
+
+  .sectionTitle::after {
+      width: 64px;
+      top: 3rem;
+  }
 }
