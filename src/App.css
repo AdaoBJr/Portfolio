@@ -487,6 +487,7 @@ img {
 }
 
 .footerContainer {
+  justify-items: center;
   row-gap: 2rem;
 }
 
@@ -494,6 +495,7 @@ img {
   font-size: var(--normal-font-size);
   color: var(--white-color);
   margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 .footerLink {
@@ -615,6 +617,10 @@ img {
   .footerContainer {
       grid-template-columns: repeat(3, 1fr);
       justify-items: center;
+  }
+
+  .footerContainer div p {
+    text-align: center;
   }
 }
 
