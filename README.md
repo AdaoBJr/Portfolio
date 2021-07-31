@@ -21,8 +21,6 @@
 <p>Bem vindo ao meu portfólio.
 Sou Adão, desenvolvedor Front-End, estudante em desenvolvimento WEB na Trybe. Nascido e residente em Campo Grande, MS 🇧🇷.</p>
 
- @[Trybe](https://trybe.com.br/)
-
 <h2 align="center">Objetivo</h2>
 
  <p>Apresentar o compilado de projetos já desenvolvidos por mim e pelas equipes por qual tive o prazer de 
