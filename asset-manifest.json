@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.80a0edf9.chunk.css",
-    "main.js": "/Portfolio/static/js/main.4c09c089.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.4c09c089.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.2d6bc515.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2d6bc515.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c74a019d.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.80a0edf9.chunk.css.map": "/Portfolio/static/css/main.80a0edf9.chunk.css.map",
     "static/js/2.92997387.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.92997387.chunk.js.LICENSE.txt",
+    "static/media/AnnaBella.290e1caf.png": "/Portfolio/static/media/AnnaBella.290e1caf.png",
     "static/media/Calculator.5e937781.png": "/Portfolio/static/media/Calculator.5e937781.png",
     "static/media/ChaleHotel.1f68663d.png": "/Portfolio/static/media/ChaleHotel.1f68663d.png",
     "static/media/Colaboradores.bf89ac0c.png": "/Portfolio/static/media/Colaboradores.bf89ac0c.png",
@@ -30,6 +31,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.92997387.chunk.js",
     "static/css/main.80a0edf9.chunk.css",
-    "static/js/main.4c09c089.chunk.js"
+    "static/js/main.2d6bc515.chunk.js"
   ]
 }
