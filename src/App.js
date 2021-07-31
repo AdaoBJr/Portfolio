@@ -6,15 +6,16 @@ import { FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 import perfil from './images/perfil.png';
 import skills from './images/skill.jpg';
-import work1 from './images/work1.png';
-import work2 from './images/work2.png';
-import work3 from './images/work3.png';
-import work4 from './images/work4.png';
-import work5 from './images/work5.png';
-import work6 from './images/work6.png';
-import work7 from './images/work7.png';
-import work8 from './images/work8.png';
-import work100 from './images/work100.png';
+import RecipesApp from './images/RecipesApp.png';
+import PandaStore from './images/PandaStore.png';
+import Colaboradores from './images/Colaboradores.png';
+import PandaStoreRedux from './images/PandaStoreRedux.png';
+import ToDoList from './images/ToDoList.png';
+import ChaleHotel from './images/ChaleHotel.png';
+import Calculator from './images/Calculator.png';
+import Facebook from './images/Facebook.png';
+import TrybeWallet from './images/TrybeWallet.png';
+import ComingSoon from './images/ComingSoon.png';
 import './App.css';
 import Dashboard from './Components/Dashboard';
 
@@ -121,63 +122,70 @@ function App() {
             <h2 data-aos="fade-down" className="sectionTitle">Portfolio</h2>
             <div className="portfolioContainer layoutGrid">
                 <div data-aos="fade-down" data-aos-delay="50" className="portfolioImg">
-                    <img src={work1} alt="" />
+                    <img src={RecipesApp} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/RecipesApp/" className="portfolioLink_name">Project Recipes App</a>
                         <a href="https://github.com/AdaoBJr/RecipesApp/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="300" className="portfolioImg">
-                    <img src={work2} alt="" />
+                    <img src={PandaStore} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/PandaStore/#/" className="portfolioLink_name">Project PandaStore - Shop Site</a>
                         <a href="https://github.com/AdaoBJr/PandaStore/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="600" className="portfolioImg">
-                    <img src={work3} alt="" />
+                    <img src={Colaboradores} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/CadastroColaboradores/#/" className="portfolioLink_name">Employees Register</a>
                         <a href="https://github.com/AdaoBJr/CadastroColaboradores/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="900" className="portfolioImg">
-                    <img src={work4} alt="" />
+                    <img src={PandaStoreRedux} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/PandaStoreRedux/" className="portfolioLink_name">Project PandaStoreRedux - Shop Site</a>
                         <a href="https://github.com/AdaoBJr/PandaStoreRedux/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
+                <div data-aos="fade-down" data-aos-delay="1600" className="portfolioImg">
+                    <img src={ToDoList} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/ToDoList/" className="portfolioLink_name">Project To Do List</a>
+                        <a href="https://github.com/AdaoBJr/ToDoList/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
+                <div data-aos="fade-down" data-aos-delay="1600" className="portfolioImg">
+                    <img src={ChaleHotel} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/ChaleHotel/" className="portfolioLink_name">Project To Do List</a>
+                        <a href="https://github.com/AdaoBJr/ChaleHotel/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
                 <div data-aos="fade-down" data-aos-delay="1100" className="portfolioImg">
-                    <img src={work5} alt="" />
+                    <img src={Calculator} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/Calculator/" className="portfolioLink_name">Project Calculator</a>
                         <a href="https://github.com/AdaoBJr/Calculator/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
-                    <img src={work6} alt="" />
+                    <img src={Facebook} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/FacebookSignup/" className="portfolioLink_name">Project Facebook Signup</a>
                         <a href="https://github.com/AdaoBJr/FacebookSignup/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="1400" className="portfolioImg">
-                    <img src={work7} alt="" />
+                    <img src={TrybeWallet} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/TrybeWallet/" className="portfolioLink_name">Project TrybeWallet</a>
                         <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="1600" className="portfolioImg">
-                    <img src={work8} alt="" />
-                    <div className="portfolioLink">
-                        <a href="https://adaobjr.github.io/ToDoList/" className="portfolioLink_name">Project To Do List</a>
-                        <a href="https://github.com/AdaoBJr/ToDoList/blob/master/README.md" className="portfolioLink_name">View Details</a>
-                    </div>
-                </div>
                 <div data-aos="fade-down" data-aos-delay="1800" className="portfolioImg">
-                    <img src={work100} alt="" />
+                    <img src={ComingSoon} alt="" />
                     <div className="portfolioLink">
                     <a href className="portfolioLink_name">Coming Soon New Project</a>
                     </div>
