@@ -165,42 +165,42 @@ function App() {
                         <a href="https://github.com/AdaoBJr/ChaleHotel/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="200" className="portfolioImg">
                     <img src={AnnaBella} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/AnnaBella/" className="portfolioLink_name">Project Modelo Anna Bella</a>
                         <a href="https://github.com/AdaoBJr/AnnaBella/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="1400" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="400" className="portfolioImg">
                     <img src={HotelParaiso} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/HotelParaiso/" className="portfolioLink_name">Project Hotel Paraíso</a>
                         <a href="https://github.com/AdaoBJr/HotelParaiso/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="1600" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="600" className="portfolioImg">
                     <img src={Calculator} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/Calculator/" className="portfolioLink_name">Project Calculator</a>
                         <a href="https://github.com/AdaoBJr/Calculator/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="1800" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="800" className="portfolioImg">
                     <img src={Facebook} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/FacebookSignup/" className="portfolioLink_name">Project Facebook Signup</a>
                         <a href="https://github.com/AdaoBJr/FacebookSignup/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="2000" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="1000" className="portfolioImg">
                     <img src={TrybeWallet} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/TrybeWallet/" className="portfolioLink_name">Project TrybeWallet</a>
                         <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="2200" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
                     <img src={ComingSoon} alt="" />
                     <div className="portfolioLink">
                     <a href className="portfolioLink_name">Coming Soon New Project</a>
