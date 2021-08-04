@@ -515,6 +515,13 @@ img {
   color: var(--first-color);
 }
 
+.footerCopy{
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-top: 4rem;
+}
+
 /* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px){
     body {

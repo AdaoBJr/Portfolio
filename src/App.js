@@ -247,6 +247,7 @@ function App() {
                 <a href="https://www.github.com/AdaoBJr"><FaGithub className="aboutSocial_icon" /></a>
             </div>
         </div>
+        <p className="footerCopy">&#169; 2021 AdamBJr. All right reserved</p>
     </footer>
     </div>
   );
