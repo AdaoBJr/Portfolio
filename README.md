@@ -1,5 +1,5 @@
 <p align="center"><img width='150px' src='https://github.com/AdaoBJr/Portfolio/blob/master/src/images/README/farol.png' />
-<h1 align="center">Portfólio</h1>  </p>
+<h1 align="center">Portfolio - Responsive Page</h1>  </p>
 
  <h2 align="center">GitHub Pages:</h2>
  
