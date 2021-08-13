@@ -17,6 +17,7 @@ import HotelParaiso from './images/HotelParaiso.png';
 import Calculator from './images/Calculator.png';
 import Facebook from './images/Facebook.png';
 import TrybeWallet from './images/TrybeWallet.png';
+import GoShoes from './images/GoShoes.png';
 import ComingSoon from './images/ComingSoon.png';
 import './App.css';
 import Dashboard from './Components/Dashboard';
@@ -198,6 +199,13 @@ function App() {
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/TrybeWallet/" className="portfolioLink_name">Project TrybeWallet</a>
                         <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
+                <div data-aos="fade-down" data-aos-delay="1000" className="portfolioImg">
+                    <img src={GoShoes} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/GoShoes/" className="portfolioLink_name">Project GoShoes</a>
+                        <a href="https://github.com/AdaoBJr/GoShoes/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
