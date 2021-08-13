@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.73283fc8.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f212b81c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f212b81c.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.275284cf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.275284cf.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c74a019d.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/Colaboradores.bf89ac0c.png": "/Portfolio/static/media/Colaboradores.bf89ac0c.png",
     "static/media/ComingSoon.84281787.png": "/Portfolio/static/media/ComingSoon.84281787.png",
     "static/media/Facebook.c354f3b6.png": "/Portfolio/static/media/Facebook.c354f3b6.png",
+    "static/media/GoShoes.06e69d8c.png": "/Portfolio/static/media/GoShoes.06e69d8c.png",
     "static/media/PandaStore.6c3b5c12.png": "/Portfolio/static/media/PandaStore.6c3b5c12.png",
     "static/media/PandaStoreRedux.31d5c77a.png": "/Portfolio/static/media/PandaStoreRedux.31d5c77a.png",
     "static/media/RecipesApp.b652c2b5.png": "/Portfolio/static/media/RecipesApp.b652c2b5.png",
@@ -31,6 +32,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.92997387.chunk.js",
     "static/css/main.73283fc8.chunk.css",
-    "static/js/main.f212b81c.chunk.js"
+    "static/js/main.275284cf.chunk.js"
   ]
 }
