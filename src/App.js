@@ -77,9 +77,9 @@ function App() {
                     <h2 data-aos="fade-down" data-aos-delay="300" className="aboutSubtitle">I'am Adão Benites</h2>
                     <span data-aos="fade-down" data-aos-delay="400" className="aboutProfession">Front-End Developer</span>
                     <p data-aos="fade-down" data-aos-delay="500" className="aboutText">
-                        👨🏻‍💻 I'm a web development at studenty at Trybe School. <br />
+                        👨🏻‍💻 I'm a web development at studenty Trybe School. <br />
                         🤓 I'm currently learning Back-End features. I'm very interested in improving my knowledge in web development. <br />
-                        👨🏻‍🎓 Furthermore, I'm degree in Civil Engineering and Physics. <br />
+                        👨🏻‍🎓 I have degree in Civil Engineering and Physics. <br />
                         🏃🏻 I'm constantly on the move. Never accommodate! <br />
                         💡 I'm passionate about solving problems and learning. Always open to new challenges and ready to face changes. <br />
                         🌎 Know the four corners of the world is my dream. <br />
@@ -217,7 +217,7 @@ function App() {
                     <span data-aos="fade-down" data-aos-delay="300" className="contactText">adao_junior_@hotmail.com</span>
                     <h3 data-aos="fade-down" data-aos-delay="400" className="contactSubtitle">PHONE</h3>
                     <span data-aos="fade-down" data-aos-delay="400" className="contactText">+55 67 99225-2201 <FaWhatsapp /></span>
-                    <h3 data-aos="fade-down" data-aos-delay="500" className="contactSubtitle">ADRESS</h3>
+                    <h3 data-aos="fade-down" data-aos-delay="500" className="contactSubtitle">ADDRESS</h3>
                     <span data-aos="fade-down" data-aos-delay="500" className="contactText">Campo Grande - MS / Brazil</span>
                 </div>
             </div>
