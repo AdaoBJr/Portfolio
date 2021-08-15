@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.73283fc8.chunk.css",
+    "main.css": "/Portfolio/static/css/main.432e8541.chunk.css",
     "main.js": "/Portfolio/static/js/main.275284cf.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.275284cf.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
@@ -10,7 +10,7 @@
     "static/js/2.92997387.chunk.js.map": "/Portfolio/static/js/2.92997387.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.73283fc8.chunk.css.map": "/Portfolio/static/css/main.73283fc8.chunk.css.map",
+    "static/css/main.432e8541.chunk.css.map": "/Portfolio/static/css/main.432e8541.chunk.css.map",
     "static/js/2.92997387.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.92997387.chunk.js.LICENSE.txt",
     "static/media/AnnaBella.290e1caf.png": "/Portfolio/static/media/AnnaBella.290e1caf.png",
     "static/media/Calculator.5e937781.png": "/Portfolio/static/media/Calculator.5e937781.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.c74a019d.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.92997387.chunk.js",
-    "static/css/main.73283fc8.chunk.css",
+    "static/css/main.432e8541.chunk.css",
     "static/js/main.275284cf.chunk.js"
   ]
 }
