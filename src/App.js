@@ -95,7 +95,7 @@ function App() {
             </div>
         </section>
         {/* <!--===== SKILLS =====--> */}
-        <section className="skills section">
+        <section className="skills section" id="skills">
             <h2 data-aos="fade-down" className="sectionTitle">Skills</h2>
             <div className="skillsContainer layoutGrid">
                 <div>
