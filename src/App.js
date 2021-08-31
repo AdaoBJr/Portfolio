@@ -124,7 +124,14 @@ function App() {
         <section className="portfolio section" id="portfolio">
             <h2 data-aos="fade-down" className="sectionTitle">Portfolio</h2>
             <div className="portfolioContainer layoutGrid">
-                <div data-aos="fade-down" data-aos-delay="50" className="portfolioImg">
+                <div data-aos="fade-down" data-aos-delay="30" className="portfolioImg">
+                    <img src={GoShoes} alt="" />
+                    <div className="portfolioLink">
+                        <a href="https://adaobjr.github.io/GoShoesRedux/" className="portfolioLink_name">Project GoShoes</a>
+                        <a href="https://github.com/AdaoBJr/GoShoesRedux/blob/main/README.md" className="portfolioLink_name">View Details</a>
+                    </div>
+                </div>
+                <div data-aos="fade-down" data-aos-delay="100" className="portfolioImg">
                     <img src={RecipesApp} alt="" />
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/RecipesApp/" className="portfolioLink_name">Project Recipes App</a>
@@ -199,13 +206,6 @@ function App() {
                     <div className="portfolioLink">
                         <a href="https://adaobjr.github.io/TrybeWallet/" className="portfolioLink_name">Project TrybeWallet</a>
                         <a href="https://github.com/AdaoBJr/TrybeWallet/blob/master/README.md" className="portfolioLink_name">View Details</a>
-                    </div>
-                </div>
-                <div data-aos="fade-down" data-aos-delay="1000" className="portfolioImg">
-                    <img src={GoShoes} alt="" />
-                    <div className="portfolioLink">
-                        <a href="https://adaobjr.github.io/GoShoes/" className="portfolioLink_name">Project GoShoes</a>
-                        <a href="https://github.com/AdaoBJr/GoShoes/blob/main/README.md" className="portfolioLink_name">View Details</a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="1200" className="portfolioImg">
