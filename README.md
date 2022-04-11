@@ -19,7 +19,7 @@
 
  </br>
 <p>Bem vindo ao meu portfólio.
-Sou Adão, desenvolvedor Front-End, estudante em desenvolvimento WEB na Trybe. Nascido e residente em Campo Grande, MS 🇧🇷.</p>
+Sou Adão, desenvolvedor Full-Stack. Nascido e residente em Campo Grande, MS 🇧🇷.</p>
 
 <h2 align="center">Objetivo</h2>
 
